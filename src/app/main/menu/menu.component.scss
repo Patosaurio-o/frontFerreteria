@@ -1,0 +1,41 @@
+* {
+  font-family: montserrat;
+  color: white;
+  font-size: 15px;
+}
+
+.mainMenu {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background-color: #041E42;
+  background-image: url(../../../assets/img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 45px 40px;
+  background-position: 20px 10px;
+  a {
+    margin: 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    font-size: 20px;
+  }
+  p {
+    margin: 20px;
+    display: inline-flex;
+  }
+  .float {
+    margin-left: auto;
+  }
+  .logout {
+    background-image: url(../../../assets/img/Icon-exit.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right;
+    margin-right: 80px;
+    padding: 0px 20px 0px 0px; 
+  }
+  .text-right {
+    margin-left: 100px;
+  }
+}
