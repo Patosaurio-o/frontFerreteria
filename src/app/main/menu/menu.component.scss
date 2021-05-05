@@ -5,7 +5,6 @@
 }
 
 .mainMenu {
-  display: flex;
   width: 100vw;
   height: 60px;
   background-color: #041E42;
@@ -13,16 +12,20 @@
   background-repeat: no-repeat;
   background-size: 45px 40px;
   background-position: 20px 10px;
+  ul {
+    display: flex;
+    margin-top: initial;
+  }
+  li{
+    list-style: none;
+    margin-top: 20px;
+  }
   a {
     margin: 20px;
     text-decoration: none;
   }
   a:hover {
-    font-size: 20px;
-  }
-  p {
-    margin: 20px;
-    display: inline-flex;
+    font-size: 25px;
   }
   .float {
     margin-left: auto;
@@ -33,9 +36,9 @@
     background-size: 15px 15px;
     background-position: right;
     margin-right: 80px;
-    padding: 0px 20px 0px 0px; 
+    padding: 0px 20px 0px 20px; 
   }
   .text-right {
-    margin-left: 100px;
+    margin-left: 50px;
   }
 }
