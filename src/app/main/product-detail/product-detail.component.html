@@ -1,1 +1,34 @@
-<p>product-detail works!</p>
+<div class="formulario">
+  <h1 class="title">Detalles del Producto</h1>
+  <form action="">
+    <div class="form-group">
+      <label for="">Nombre</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label for="">Cantidad</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label for="">Precio</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label for="">Categoría</label>
+      <select name="categoria">
+        <option value=""></option>
+        <option value="construccion">Construcción</option>
+        <option value="jardineria">Jardinería</option>
+        <option value="herramientas">Herramientas</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">Ficha Técnica</label>
+      <input class="box" type="text">
+    </div>
+    <div class="action">
+      <a routerLink="/mainMenu">volver</a>
+      <button type="submit">Guardar</button>
+    </div>
+  </form>
+</div>

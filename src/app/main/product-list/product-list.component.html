@@ -16,68 +16,69 @@
         <td>Row 1 Data 2</td>
         <td>Row 1 Data 3</td>
         <td>Row 1 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>2</td>
         <td>Row 2 Data 2</td>
         <td>Row 2 Data 3</td>
         <td>Row 2 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>3</td>
         <td>Row 1 Data 2</td>
         <td>Row 1 Data 3</td>
         <td>Row 1 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>3</td>
         <td>Row 2 Data 2</td>
         <td>Row 2 Data 3</td>
         <td>Row 2 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>4</td>
         <td>Row 1 Data 2</td>
         <td>Row 1 Data 3</td>
         <td>Row 1 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>5</td>
         <td>Row 2 Data 2</td>
         <td>Row 2 Data 3</td>
         <td>Row 2 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>6</td>
         <td>Row 1 Data 2</td>
         <td>Row 1 Data 3</td>
         <td>Row 1 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="#openModal">eliminar</a></td>
       </tr>
       <tr>
         <td>7</td>
         <td>Row 2 Data 2</td>
         <td>Row 2 Data 3</td>
         <td>Row 2 Data 4</td>
-        <td><a href="">editar</a><a href="#openModal">eliminar</a></td>
+        <td><a routerLink="detail/id">editar</a><a href="openModal">eliminar</a></td>
       </tr>
     </tbody>
   </table>
 </div>
-<div id="openModal" class="modalDialog">
-	<div>
-		<p>¿Eliminar este producto?</p>
-    <p>Nombre Producto</p>
-    <div class="btns">
-      <a class="btn-no" href="">cancelar</a>
-      <a class="btn" href="" >aceptar</a>
+<ng-template #openModal let-modal class="modalDialog">
+  <div id="openModal" >
+    <div>
+      <p>¿Eliminar este producto?</p>
+      <p>Nombre Producto</p>
+      <div class="btns">
+        <a class="btn-no" href="">cancelar</a>
+        <a class="btn" href="" >aceptar</a>
+      </div>
     </div>
-	</div>
-</div>
-
+  </div>
+</ng-template>

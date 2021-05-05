@@ -1,0 +1,67 @@
+* {
+  font-family: montserrat;
+}
+
+.title {
+  color: #FFB612;
+  font-weight: 200;
+  text-align: center;
+  font-size: 60px;
+}
+
+.formulario {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  form {
+    width: 700px;
+    display: flex;
+    flex-flow: column;
+    .form-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      label {
+        margin: 20px 0px 20px 0px;
+        font-size: 28px;
+      }
+      input {
+        width: 420px;
+        height: 30px;
+        border-radius: 30px;
+      }
+      select {
+        width: 430px;
+        height: 35px;
+        border-radius: 30px;
+        border: 2px solid black;
+      }
+      .box {
+        height: 100px
+      }
+    }
+    .action {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      a {
+        text-decoration: none;
+        color: black;
+        background: transparent url('../../../assets/img/undo.svg') no-repeat padding-box right;
+        padding-right: 30px;
+      }
+      button {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #ffb612;
+        color: white;
+        text-decoration: none;
+        width: 150px;
+      }
+    }
+  }
+}
